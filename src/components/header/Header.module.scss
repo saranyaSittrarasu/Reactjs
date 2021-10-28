@@ -1,0 +1,39 @@
+@import '../../variables';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    border-bottom: 1px solid $color__subtle;
+    background: $color__white;
+}
+
+.link {
+    color: $color__black;
+}
+
+.section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.list {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    margin-right: 10px;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}

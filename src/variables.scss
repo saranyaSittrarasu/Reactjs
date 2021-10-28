@@ -1,0 +1,26 @@
+$color__white: #fff !default;
+$color__light: #f7f7f7 !default;
+$color__subtle: #ececec !default;
+$color__medium: #a5a5a5 !default;
+$color__gray: #616161 !default;
+$color__dark: #292929 !default;
+$color__black: #000 !default;
+
+$color__disabled: #e7e7e7 !default;
+$color__text: #333 !default;
+$color__info: #7fadc0 !default;
+$color__success: #32885e !default;
+$color__error: #d0024f !default;
+$color__warning: #daaf02 !default;
+
+$color__primary: #02423f !default;
+$color__primary-contrast: #fff !default;
+$color__primary-light: lighten($color__primary, 10%) !default;
+$color__primary-dark: darken($color__primary, 10%) !default;
+
+$color__secondary: #7c0834 !default;
+$color__secondary-contrast: #fff !default;
+$color__secondary-light: lighten($color__secondary, 10%) !default;
+$color__secondary-dark: darken($color__secondary, 10%) !default;
+
+$box-shadow: 0 2px 20px rgba($color__black, 0.1);
